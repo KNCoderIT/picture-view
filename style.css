@@ -1,0 +1,25 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Calibri;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.img{
+  cursor: pointer;
+  transition: .6s;
+  width: 40%;
+}
+.text{
+  position: absolute;
+  right: 75px;
+  top: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  visibility: hidden;
+}
